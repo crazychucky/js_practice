@@ -1,0 +1,17 @@
+{
+    "version": "0.1.0",
+    "configurations": [
+        {
+            "type": "node",
+            "request": "launch",
+            "name": "Launch Program",
+            "program": "${workspaceFolder}/main.js"
+        },
+        {
+            "name": "Launch main.html",
+            "type": "chrome",
+            "request": "launch",
+            "file": "${workspaceFolder}/main.html"
+        },
+    ]
+}
